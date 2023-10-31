@@ -27,15 +27,6 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-// Cypress.Commands.add('selectProduct', (productName) => {
-//     cy.get('span.a-size-medium.a-color-base.a-text-normal').each(($el,index,$lsit) =>{
-//         if( $el.text().includes(productName))
-//         {
-//          cy.get('div.a-section.aok-relative.s-image-fixed-height').eq(index).click();
-//         }
-//      });
-// });
-
 Cypress.Commands.add('isProductAvailable', (ProductName) => {
     // debugger;
     //     if(cy.contains(ProductName))
