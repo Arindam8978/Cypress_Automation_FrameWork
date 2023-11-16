@@ -1,0 +1,14 @@
+ I'm Arindam Das, a QA Engineer with almost 3 years of experience, currently serving as a Full Stack QA professional. 
+ In my recent project was in E-commerce domain, and the tech stack for the application included React for the frontend, 
+ Java for the backend, and SQL for the database,Throughout this journey, we followed Agile methodologies, fostering efficiency and collaboration.
+ 
+ When it comes to Automation Testing, I harnessed the capabilities of Cypress, a powerful UI automation tool. We followed 
+ the Page Object Model design pattern to craft robust test cases, ensuring the functionality and stability of web applications. 
+ for reporting we integration of the Cypress automation framework with Cypress Cloud and Git, our chosen version control tool,
+ facilitated collaborative development. 
+ 
+In the realm of manual testing, my responsibilities was requirements analysis, test coverage matrix creation test case formulation,
+ and test execution. Defect tracking was seamlessly managed through JIRA, and Zephyr was our go-to test management tool.  I'm also 
+ familiar with SQL for database testing.
+ 
+During my initial journey into automation, I worked into Java Selenium Automation as well.
