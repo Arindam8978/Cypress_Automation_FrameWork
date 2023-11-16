@@ -1,0 +1,109 @@
+1.sprint plaining. (story points)
+2.daily scrum.
+3.backlog refinement or Backlog grooming - (refinement will happen mid of the sprint, and we will take a decision at the backlog
+ refinement call that we can finish all the user story or not if it's not possible then it'll move to the next sprint or if it'll
+ priority work then need to finshed asap)
+4.sprint review. (gather all the people clients and all and show them the progress of the sprint and futhure plan)
+5.sprint retrospective.
+
+SDLC and STLC
+bug life cycle
+
+two reviewer should be mandatory for PR (Pull request)
+after done the review we can merge the code into feature branch or our own branch
+master branch - child branch - feature branch - development branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I am Arindam Das and i have almost 3 years of experience in QA Engineer profile. and currently 
+i am working on Cypress Automation and my current project was based on E-commerce domain and i created
+Cypress Automation Framework and used it extensively for writing test cases and ensuring the 
+functionality, stability, and performance of web applications. and i have also experience in 
+java selenium Automation as well as manual testing.
+ 
+ 
+ I am well-versed in using Cypress, a cutting-edge testing framework that offers robust features for end-to-end testing. 
+ I have designed and executed test scripts, managed test data, and Additionally,
+ I have experience with custom commands, fixtures, and plugins that enhance the capabilities of Cypress. i am expe in worin in afile method in e comeer domain and using cypress 
+zehper to write test case and project management tools jira and version control github and 
+
+if any web application is down how i can diagnosis :  (https://www.hostinger.in/tutorials/tips-for-troubleshooting-website#Why_Is_Troubleshooting_Important)
+1. Check if the Site Is Down Only for You
+2. Check the Network Connection
+3.Look For Error Messages in the Browser
+4.Try a Different Browser
+5.Check the Error Logs
+5.Use Developer Tools
+
+
+
+
+into 
+exp
+domain
+cypress (github,)
+manul testig - 
+api testing postman , database testing sql 
+
+
+
+I am Arindam Das and i have almost 3 years of experience in QA Engineer profile.
+and my current project was based on E-commerce domain and we worked with Agile 
+methodologies adapting testing strategies to suit project requirements,i am working
+on Cypress Automation. and i designed and developed Cypress Automation Framework 
+and used it  extensively for writing test cases and ensuring the functionality,  
+stability, and performance of web applications. and Integrated the Cypress automation 
+framework with Cypress Cloud and for version controling tool i used git. and for 
+database testing i worked on SQL. and for test management tool i worked on Zephyr 
+and for project management i used JIRA. and in my first project i was working on 
+java selenium Automation and manul testing as well.
+
+do i need to say yes or no for API Testing in client interview - API 
+
+
+and i designed and developed Cypress Automation Framework.
+
+why we use Cypress because that application works seamlessly with Single Page applications and previous application was also 
+based on javascript based framework so it's was eassy to shifted in cypress and Cypress provides Time Travel options, so It takes 
+snapshots of each tests, after execution we can see what happened exactly in each step.
+We don’t have to do any configuration for this this comes by default with cypress. and Cypress Automatically waits for commands and
+ assertions or any animation to complete so most of the time we don’t have to put additional sleep in our tests
+ 
+ 
+ when i was joined that project so client set up the file for me and they said that don't changes anything inside the file then it won't work
+ so i used only those files.	`
+ 
+ I am Arindam Das and I have almost 3 years of experience in QA Engineer profile. I am currently working as full stack QA. 
+My previous project was based on E-commerce domain and the(tech stack of the application - for frontend they were using react and backend 
+java, and for database they using sql)and we followed Agile methodologies.
+
+For Automation Testing - 
+In UI Automation we were using popular UI automation tool cypress. it is extensively for writing test cases and ensuring the functionality,  
+stability of web applications. and we have followed page object model design pattern. Here we have Integrated the Cypress automation 
+framework with Cypress Cloud and for version controling tool i used git. 
+
+For manual testing 
+As a manual QA my role - to analysis the requirements,Create the test coverage matrix, create the test cases, and executes them and log
+the defect into JIRA and all.
+for test management tool i worked on Zephyr 
+and for project management i used JIRA. 
+and database testing i worked on SQL
+
+and in my very first project i was working on 
+java selenium Automation as well.
+

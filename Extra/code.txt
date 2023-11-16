@@ -1,0 +1,53 @@
+* * * * * 
+ * * * *
+  * * *
+   * *
+    *
+
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        int n = 5;
+        char currentChar = 'a';
+        for (int i =1; i<=n; i++)
+        {
+            for(int j =1; j<i; j++)
+            {
+            System.out.print(" ");
+            }
+        for (int k = i; k<=n; k++)
+        {
+            System.out.print(currentChar + " ");
+            currentChar++;
+            //System.out.print("a ");
+        }
+        System.out.println();
+        }
+    }
+}
+
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+        int [] numbers = {5,12, 3, 7,1,9};
+        int min = numbers[0];
+        int max = numbers[0];
+        
+        for (int i =1; i<numbers.length;i++)
+        {
+            if(numbers[i]<min)
+            {
+                min = numbers[i];
+            }
+            if(numbers[i]>max)
+            {
+                max = numbers[i];
+            }
+        }
+        System.out.println("Minimum number :" +min);
+        System.out.println("Maximum number :" +max);
+    }
+}
