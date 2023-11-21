@@ -1,0 +1,319 @@
+let carCollections = ["Saab", "BMW", "Jagur"];
+//The instanceof operator returns true if an object is an instance of the specified object:
+console.log(carCollections instanceof Array);
+console.log(carCollections instanceof Object);
+console.log(carCollections instanceof Number);
+console.log(carCollections instanceof String);
+
+why it's returnig true for second statemnts ? 
+
+clouser - youtube
+/*
+Ending Definitions with a Comma
+Trailing commas in object and array definition are legal in ECMAScript 5. */
+person3 = {firstName:"John", lastName:"Doe", age:46,}
+console.log(person3);
+
+points = [40, 100, 1, 5, 25, 10,];
+console.log(points);
+
+
+
+jenkins
+cucumber or mochawsome 
+do you really use cypress cloud for dashboard and all 
+Mocking Http requests/responses with Cypress (XHR Testing)
+
+how can we run more than one specs at a same time if we have 10 specs 
+cypress can access excel ?
+cypress default support css selector but can we use xpath?
+if i want to change the spec file folder and configuration the do i need to come into cypress.config.json? and do i need to set the specPattern path of the spec file?
+
+
+is there any way to run multiple spec file at same time?
+
+how can i check if css selector is presesnt or not in DOM?
+how can i run seperate beforeeach block for 2 or 3 testCases.
+
+
+    it('Add address for user', () => {
+        cy.get('#auth-error-message-box span').then((text) => {
+            if(text.is(':visible'))
+            {
+
+            }
+        });
+
+        cy.get().should('not.exist',);
+		
+		
+		
+		
+ // Define your actual pincode
+        const actualPincode = "832108";
+
+// Use cy.get to select the element by CSS selector
+    cy.get("#address-ui-widgets-CityStatePostalCode").should("have.length.gte", 1).then(($element) => {
+  // Extract the text content from the element
+  const text = $element.text();
+debugger;
+  // Use regular expressions to find and extract the pincode from the text
+  const pincodeRegex = /\b\d{6}\b/; // Matches a 6-digit pincode
+  const extractedPincode = text.match(pincodeRegex);
+debugger
+  if (extractedPincode) {
+    const extractedPincodeString = extractedPincode[0];
+
+    // Compare the extracted pincode with the actual pincode
+    if (extractedPincodeString === actualPincode) {
+      cy.log(`Pincode matches: ${extractedPincodeString}`);
+    } else {
+      cy.log(`Pincode does not match: ${extractedPincodeString}`);
+    }
+  } else {
+    cy.log("No pincode found in the text.");
+  }
+});
+
+
+
+
+testCafe and cypress both are different ?
+what is Shadow DOM?
+what is flaky test?
+how can i identify mocha in the framework? using describe, it, skip, only, hooks and all?
+we cannot write multiple describe block in a spec file?
+in cypress there is no command to close the browser ?
+
+     cy.get("#iframeId").then((getIframe) => {
+            cy.wrap(getIframe.click());
+            cy.wrap(getIframe.contents().find("body")).type
+        });
+		
+		
+we can read the json like cy.fixture so is there any way to write into json?	
+cypress is asynchronous and it's handle promise default?
+have you used  preserve cookies	? - cy.session()
+		
+	
+in review the questions will be only come from cypress? and no js questions?	
+scripts are not working properly from package.json file.
+when we install node js so npm will come with default with node js		
+integartion folder is not cretaed default for new framework
+Is there any way to set Priority for any test case like we have in TestNG during execution in Cypress?
+can i update cypress version from test runner?  or i got one command - npm install cypress@latest --save-dev
+
+how to install cypress globally - npm install -g cypress. and will it automaticall come when i'll create new framework
+cypress run in client side?
+
+npx cypress run --record --key b13ce133-c128-44db-905a-30a146c9fceb --spec "cypress\e2e\TC05_SignInNegativeTest.js" --browser chrome --headed 
+
+
+implicit - .should, .and (and should will wait for certain time to resolve the promise.)
+explicit - expect(),assert (expect don't wait it'll perform immediately and there is no promise concept in expect)
+
+
+why few spec files extentions are cy.js?
+
+Hfr4kyOqbqETOI3SMTmL4
+cy.intercept examples 
+
+E-commece project one will they ask me that i am working for those client as mindfire employee 
+shall i explain the data flow same as like amazon.
+
+
+geolocation, facebook , without describe block also we can run our spec file
+
+
+Positive Assertions
+cy.get('li.todo').should('have.length', 3)  - hello, length=3
+Negative Assertions
+cy.get('li.todo').should('not.have.length', 2) length!=2
+
+--config baseUrl getting an error.
+
+didn't get extisting test cases when clone the framework
+unable to run the test cases in parallel
+need to ask -     cy.origin('https://facebook.com/', () => {
+      cy.visit('/');    
+    });
+	
+except cypress test runner UI is there any defalut report is provided by cypress	
+	
+	
+
+Copy code
+cron: '0 0 7,19 ? * * *'
+Breaking it down:
+
+The first 0 represents the second, meaning the job will run at the 0th second.
+The second 0 represents the minute, meaning the job will run at the 0th minute.
+The 7,19 in the third field represents the hour. The job will run at both the 7th and 19th hours of the day.
+The ? is used for the day of the month field but is typically set as a question mark when the day of the week (*) is specified.
+The * in the fifth field represents the month, meaning the job will run every month.
+The * in the sixth field represents the day of the week, meaning the job will run every day of the week.
+The last * represents the year.
+So, in summary, the cron job will run every day at 7:00 AM and 7:00 PM.
+
+
+
+
+
+cron: '0 0 7,19 * * * *'
+Here's a breakdown of what each field means:
+
+0 - Seconds: Specifies that the cron job should trigger when the seconds field is 0.
+0 - Minutes: Specifies that the cron job should trigger when the minutes field is 0.
+7,19 - Hours: Specifies that the cron job should trigger at 7 AM and 7 PM. The , allows for multiple values.
+* - Day of the month: Specifies that the cron job should trigger every day of the month.
+* - Month: Specifies that the cron job should trigger every month.
+* - Day of the week: Specifies that the cron job should trigger every day of the week.
+* - Year: Specifies that the cron job should trigger every year.
+So, in summary, this cron expression will trigger the cron job at 7 AM and 7 PM every day.
+
+
+
+
+yml - The file extension ".yml" stands for YAML, which stands for "YAML Ain't Markup Language" or sometimes recursively expanded as
+ "YAML Ain't a Markup Language." YAML is a human-readable data serialization format commonly used for configuration files and data exchange
+ between languages with different data structures. In the context of GitHub CI/CD and Cypress, YAML files are often used to define configuration
+ settings and workflows. In GitHub Actions, the ".yml" file is commonly referred to as a workflow file. It defines the steps, jobs, and
+ configurations for automated workflows. These YAML files are stored in the ".github/workflows/" directory in your GitHub repository.
+
+For example, a GitHub Actions workflow file for running Cypress tests might be named "cypress.yml" and could contain the configuration 
+for setting up the testing environment, defining jobs, and specifying when the workflow should run.
+
+
+cron - Cron jobs are meant for performing regularly scheduled actions such as backups, report generation, and so on. Each of those tasks should be
+ configured to recur indefinitely (for example: once a day/week/month); you can define the point in time within that interval when the job should start.
+
+name: schedule-cron
+on:
+  schedule:
+    # runs tests every day at 7pm
+    - cron: '0 0 7,19 * *'  
+  workflow_dispatch:
+
+jobs:
+  nightly:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Cypress nightly tests 
+        uses: cypress-io/github-action@v6
+        with:
+          browser: chrome
+          spec : cypress/e2e/examples/Test9.cy.js
+          headed : true
+          record : true
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+
+name: Specifies the name of the workflow, in this case, "schedule-cron."
+
+on: Defines the events that trigger the workflow.
+
+schedule: Sets up a cron job to trigger the workflow at specified intervals. The cron expression '0 0 7,19 * *' means the workflow will run every day at 7 am and 7 pm.
+
+workflow_dispatch: Allows manual triggering of the workflow through the GitHub Actions UI.
+
+jobs: Defines the jobs to be executed.
+
+nightly: Specifies the job name.
+
+runs-on: Specifies the operating system for the job, in this case, Ubuntu 22.04.
+
+steps: Contains the list of steps to be executed in the job.
+
+name: Checkout: Checks out the repository.
+
+name: Cypress nightly tests: Executes Cypress tests using the cypress-io/github-action.
+
+uses: cypress-io/github-action@v6: Specifies the version of the Cypress GitHub Action to use.
+
+with: Configures the Cypress GitHub Action.
+
+browser: chrome: Specifies the browser to use for testing.
+
+spec : cypress/e2e/examples/Test9.cy.js: Specifies the Cypress test file.
+
+headed : true: Runs Cypress in headed mode (with a visible browser).
+
+record : true: Enables recording test results on the Cypress Dashboard.
+
+env: Sets environment variables for the job.
+
+CYPRESS_RECORD_KEY: Passes the Cypress record key from GitHub secrets.
+
+GITHUB_TOKEN: Passes the GitHub token from GitHub secrets.
+
+This workflow is set up to run Cypress tests automatically at 7 am and 7 pm every day, as well as manually triggered
+ through the GitHub Actions UI. The tests are recorded on the Cypress Dashboard.
+
+
+
+
+
+
+Question: What are some best practices for writing Cypress tests?
+
+Answer: Some best practices for writing Cypress tests include:
+
+Keep tests focused, short, and readable.
+Use descriptive test and assertion names.
+Use custom commands or page objects to avoid code duplication.
+Make tests resilient to changes by using data attributes or unique selectors.
+Use fixtures for test data and avoid hardcoding data in test files.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+name: End-to-end tests
+on: push
+jobs:
+  cypress-run:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      # Install npm dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress run
+        uses: cypress-io/github-action@v6
+   
+		

@@ -1,0 +1,51 @@
+Resource x :
+Element A
+Element B 
+Resource y :
+Element C
+Element D
+ 
+case 1 : Posting(post request) element E to resource x
+case 2: Putting(put request) element F to resource y
+What is the Output in Resource x and y
+
+element e will create in server using resouces x. 
+o/p - element E, A,B 
+update element f in server using resouce y. 
+element F 
+
+https://reqres.in/api/users1
+ 
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+
+CREATE TABLE students(
+	student_id INT PRIMARY KET,
+	student_name VARCHAR(255) NOT NULL,
+	roll_number INT NOT NULL,
+	section VARCHAR(10) NOT NULL
+);
+
+CREATE TABLE marks(
+	student_id INT,
+	section VARCHAR(10),
+	english_marks INT,
+	math_marks INT,
+	FOREIGN KEY (student_id) 
+)
+student_id, student_name, english marks 
+
+
+SELECT s.student_id, s.student_name, m.english_marks FROM students as s
+JOIN marks as m ON s.student_id = m.student_id;
+
+
+SELECT DISTINCT english_marks 
+FROM marks 
+ORDER BY english_marks DESC
+LIMIT 1 OFFSET 1;
+
+
+

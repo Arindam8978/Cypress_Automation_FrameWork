@@ -1,0 +1,165 @@
+ I'm Arindam Das, a QA Engineer with almost 3 years of experience and In my recent project was in
+ E-commerce domain, and the tech stack for the application included React for the frontend, Java for the backend,
+ and SQL for the database,Throughout this journey, we followed Agile methodologies, fostering efficiency and collaboration.
+ 
+ When it comes to Automation Testing, I harnessed the capabilities of Cypress, a powerful UI automation tool. We followed 
+ the Page Object Model design pattern to craft robust test cases, ensuring the functionality and stability of web applications. 
+ for reporting we integration of the Cypress automation framework with Cypress Cloud and Git, our chosen version control tool,
+ facilitated collaborative development. 
+ 
+In the realm of manual testing, my responsibilities was requirements analysis, test coverage matrix creation test case formulation,
+ and test execution. Defect tracking was seamlessly managed through JIRA, and Zephyr was our go-to test management tool.  I'm also 
+ familiar with SQL for database testing.
+ 
+During my initial journey into automation, I worked into Java Selenium Automation as well.
+
+
+
+
+2.5  previous organization - 4-5 months worked on cypress
+2 months - mindfire in cypress
+who will replace you in your current project (most probably will not ask) - suggested the answer - DTR
+
+in my previous project it's somewhere around 4-5 months i was working in cypress because in the same project they
+ introduce new modul and for that one they started work on cypress automation and based on my that cypress automation
+ experience I got selected for mindfire and it's been around 2-3 months i am working in mindfire in cypress automation framework.
+
+
+
+# name: Cypress Tests
+
+# on:
+#   push:
+#     branches:
+#       - master
+
+# jobs:
+#   test:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout Repository
+#         uses: actions/checkout@v2
+
+#       # - name: Install Dependencies
+#       #   run: npm install
+
+#       - name: Run Cypress Tests
+#         run: |
+#           npx cypress run --spec "cypress/e2e/examples/Test7.cy.js"
+
+  projectId: "h2fwg3",
+  
+  Introduction - able to answer
+No. of projects worked on 2
+
+Previous project/company:
+Member count - 3 test engineer (1 manual + 2 automation) , 4 dev, 1 business analyst, 1 solution architect, 1 scrum master
+project domain - able to answer
+daily role - able to answer 
+agile process - able to answer 
+frontend backend - able to answer - (angular,java,sql)
+exp in previous project - confirm on this - 2.5 years
+
+Current project:
+Member count - 4 QA ( 2 manual + 2 automation); all meetings with client only
+daily role - able to answer
+project domain - able to answer
+cypress exp - confirm on this
+frontend backend - able to answer - (react,java,sql)
+debugging tests - able to answer
+agile process - able to answer 
+who will replace you in your current project (most probably will not ask) - suggested the answer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+My Role:
+
+As a Full Stack QA Engineer, I played a crucial role in ensuring the quality and reliability 
+of the entire software stack. My responsibilities extended across both manual and automated testing processes.
+
+Role and Responsibility: 
+
+1. Requirement Analysis:
+2. Test Planning:
+3. Test Case Design:
+4. Test Execution (including creating automation srcipts)
+5. log defect into jira
+6. restrat the new sprint
+
+
+
+Project Overview:
+
+In my previous role, I had the opportunity to work on an E-commerce project that aimed to provide users with a seamless and 
+secure online shopping experience. The project involved the development of a web application catering to a diverse range of 
+products, employing technologies such as React for the frontend, Java for the backend, and SQL for the database.
+
+
+QA Process:
+
+1. Requirement Analysis:
+Collaborated with the business analyst and product manager to thoroughly understand and analyze project requirements.
+
+2. Test Planning:
+Created comprehensive test plans outlining the testing approach, scope, resources, and schedule.
+
+3. Test Case Design:
+Developed detailed test cases covering various scenarios, including positive and negative test cases, boundary tests, and end-to-end flows.
+
+4. Manual Testing:
+Executed manual tests to validate the application's functionality, usability, and compatibility across different browsers and devices.
+Logged defects in JIRA, providing detailed information and collaborating with the development team for timely resolutions.
+
+5. Automation Testing:
+Implemented UI automation tests using Cypress, following the Page Object Model design pattern.
+Integrated the Cypress automation framework with Cypress Cloud for efficient test execution and management.
+
+6. Test Management:
+Utilized Zephyr for JIRA as the test management tool to organize, execute, and track manual test cases.
+Maintained test coverage matrices to ensure comprehensive testing coverage.
+
+7. Database Testing:
+Conducted database testing using SQL queries to validate data integrity, accuracy, and consistency.
+
+Challenges and Achievements:
+Throughout the project, I encountered challenges such as handling dynamic content in the UI, ensuring data 
+consistency across the database, and addressing cross-browser compatibility issues. These challenges provided 
+valuable learning experiences, and I successfully implemented effective testing strategies to overcome them.
+
+
+
+E-commerce project - First register if a new user if it's existing user then login
+					 Serach the product based on price range,and fill all the details
+					like address,payment mode and purchase the product successfully.
+					then particular request is sent to database.
+					
+					
+
+What are the things to check in the PR ?	
+Check that the local branch and repository you're merging from, and the remote branch and repository you're merging into	
+Comments
+coding guidlines
+naming convension
+css selector should be properly 
+code should be optimize
+all variable should be used
+					
+
