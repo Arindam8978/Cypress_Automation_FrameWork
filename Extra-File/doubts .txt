@@ -138,8 +138,11 @@ need to ask -     cy.origin('https://facebook.com/', () => {
       cy.visit('/');    
     });
 	
-except cypress test runner UI is there any defalut report is provided by cypress	
+How to execute tests in order in Cypress?	
 	
+beforeAll runs once before any tests in the entire test suite.
+afterAll runs once after all tests in the entire test suite.	
+	is beforeAll and afterAll both are equivalent to before and after hooks?
 	
 
 Copy code
@@ -171,7 +174,7 @@ Here's a breakdown of what each field means:
 * - Year: Specifies that the cron job should trigger every year.
 So, in summary, this cron expression will trigger the cron job at 7 AM and 7 PM every day.
 
-
+? mean - no specific value
 
 
 yml - The file extension ".yml" stands for YAML, which stands for "YAML Ain't Markup Language" or sometimes recursively expanded as
@@ -275,13 +278,37 @@ Use fixtures for test data and avoid hardcoding data in test files.
 
 
 
+create the same yml file like above but the difference should be when we push the 
+code as well as pull the code into the main branch so modify the on section on the top
 
 
 
+name: End-to-end tests
 
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
+jobs:
+  cypress-run:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-
+      - name: Cypress run 
+        uses: cypress-io/github-action@v6
+        with:
+          browser: chrome
+          headed: true
+          record: true
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
 
@@ -317,3 +344,50 @@ jobs:
         uses: cypress-io/github-action@v6
    
 		
+The .each() function in Cypress is used to iterate over a list of elements (usually obtained using cy.get()) 
+and perform actions or assertions on each element within the list. It's a powerful way to apply the same action or
+ assertion to multiple elements in a collection.
+
+Here's the basic syntax for using .each() in Cypress:
+
+javascript
+Copy code
+cy.get(selector).each(($element, index, $list) => {
+  // Actions or assertions on each element go here
+});
+Let's break down the parameters:
+
+selector: This is the CSS selector that targets the elements you want to interact with.
+
+$element: This is a reference to the current element in the list being iterated. You can perform actions or assertions on this element.
+
+index: It represents the index of the current element in the list, starting from 0.
+
+$list: This is a reference to the entire list of elements matching the selector.
+
+
+In Cypress, the .then() function is used to handle asynchronous operations or to chain additional commands.
+
+
+In Cypress, cy.visit() and cy.origin() are two different commands with distinct purposes:
+
+cy.visit():
+
+cy.visit() is used to navigate to a specific URL or path.
+It triggers a full page reload and loads the specified URL or path from scratch.
+It is typically used to navigate to the initial state of the application or to visit a specific page before running test assertions.
+Example:
+cy.visit('https://example.com');
+
+
+
+cy.origin():
+cy.origin() is used to retrieve the origin (protocol, hostname, and port) of the current window's location.
+It does not navigate to a new page but provides information about the current page's origin.
+This command is often used in scenarios where you need to compare the current origin with an expected value.
+Example:
+
+
+cy.origin().should('eq', 'http://localhost:8080');
+In summary, cy.visit() is for navigation, while cy.origin() is for retrieving information about the current page's origin. 
+They serve different purposes and are used in different contexts within Cypress tests.
