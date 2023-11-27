@@ -11,7 +11,7 @@ module.exports = defineConfig({
 
     },
      baseUrl: 'https://www.amazon.in/', 
-     specPattern : "cypress/e2e/*.js"
+     //specPattern : "cypress/e2e/*.js"
   },
  
 });
