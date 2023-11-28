@@ -1,5 +1,6 @@
+Agile Cerimonies - 
 sprint refinement - they take ticket from backlog and and plaining poker
-1.sprint plaining. (story points) check avaibility of the resources
+1.sprint plaining. (story points) check avaibility of the resources and during the sprint plainig meeting only dev and QA team estimated the story points
 2.daily scrum.
 3.backlog refinement or Backlog grooming - (refinement will happen mid of the sprint, and we will take a decision at the backlog
  refinement call that we can finish all the user story or not if it's not possible then it'll move to the next sprint or if it'll
@@ -7,8 +8,27 @@ sprint refinement - they take ticket from backlog and and plaining poker
 4.sprint review. (gather all the people clients and all and show them the progress of the sprint and futhure plan)
 5.sprint retrospective.
 
+Roles - 
+Product owner
+scrum master
+team
+
+Artefacts - 
+Product backlog - It is generally owned and maintained by the project owner. It usually contains each and every 
+feature of the product as well as the requirements of the product. It is compiled to everything that must be done 
+to complete the whole process. It just breaks down every item into a series of steps. It is more specific to the end goal of the product.
+
+sprint backlog - It is generally owned by the development team. It only contains those features and requirements that
+ are related to the specific sprint only. It is considered a subset of the product backlog. It is compiled of everything
+ that must be done to complete a particular sprint. It only includes items that can be completed during each agile sprint.
+ It is specific to the sprint goal only in a particular sprint
+burndown chart
+
+
 SDLC and STLC
 bug life cycle
+
+Story points - is the rough estimation given by the dev and QA teams
 
 two reviewer should be mandatory for PR (Pull request)
 after done the review we can merge the code into feature branch or our own branch
