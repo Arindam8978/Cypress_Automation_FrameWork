@@ -146,7 +146,7 @@ Changing Requirements:
 1. Frequent changes in project requirements can pose a challenge for both manual and automation testing. 
 Adaptability is crucial to handle evolving specifications.
 
-2.Test Data Management:
+2. Test Data Management:
 Ensuring the availability of appropriate test data for various scenarios can be challenging,
 especially when dealing with sensitive or complex data requirements.
 

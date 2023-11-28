@@ -391,3 +391,6 @@ Example:
 cy.origin().should('eq', 'http://localhost:8080');
 In summary, cy.visit() is for navigation, while cy.origin() is for retrieving information about the current page's origin. 
 They serve different purposes and are used in different contexts within Cypress tests.
+
+Test isolation
+how to maintain the test cases 
