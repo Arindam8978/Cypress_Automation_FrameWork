@@ -34,7 +34,7 @@ jobs:
             # build: npm run build
             # start: npm start
             browser: chrome
-            spec : cypress/e2e/examples/Test9.cy.js
+            spec : cypress/e2e/TC01_FilterProductsBasedOnThePrice.cy.js
             headed : true
             record : true
         env:
