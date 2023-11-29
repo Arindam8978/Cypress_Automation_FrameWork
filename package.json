@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules\\.bin\\cypress run -- --record --key b13ce133-c128-44db-905a-30a146c9fceb",
+    "test": "node_modules\\.bin\\cypress run",
     "CloudRun" : "cypress run -- --record --key b13ce133-c128-44db-905a-30a146c9fceb --browser chrome --headed",
     "ChromeTestWithHeaded" : "npm run test -- --browser chrome --headed",
-    "fullCommand" : "npx cypress run --record --key b13ce133-c128-44db-905a-30a146c9fceb --spec 'cypress\\e2e\\TC05_SignInNegativeTest.js' --browser chrome --headed"
+    "fullCommand" : "npx cypress run --record --key b13ce133-c128-44db-905a-30a146c9fceb --spec 'cypress\\e2e\\TC05_SignInNegativeTest.js' --browser chrome --headed",
+    "dashboard" : "npm run test -- --record --key b13ce133-c128-44db-905a-30a146c9fceb"
   },
   "author": "",
   "license": "ISC",
